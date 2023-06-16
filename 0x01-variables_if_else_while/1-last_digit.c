@@ -6,11 +6,14 @@
 /**
  *betty style doc for function main goes there
  *Description : 'give the last digit from the number'
- *return zero  */
+ *return always 0  zero
+ *main : 'Entry Point'
+*/
 int main(void)
 {
 	int n;
 	int ld;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	ld = n % 10;
