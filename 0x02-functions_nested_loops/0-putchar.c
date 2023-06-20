@@ -1,6 +1,6 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * main - prints the string "Holberton" from a character array.
+ * main - prints the string "_putchar" from a character array.
  * Return: 0 on success.
  */
 int main(void)
@@ -8,7 +8,7 @@ int main(void)
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
-	_putchar('r');
+	_putchar('t');
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
